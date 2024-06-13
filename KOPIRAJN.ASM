@@ -21,6 +21,7 @@ main:
 
                 inc bx
                 jmp copyArr
+        
         copyEnd:
                 mov bx,0
         printArr:
@@ -37,6 +38,7 @@ main:
 
                 inc bx
                 jmp printArr
+        
         printEnd:
         mov ah,4ch
         int 21h
